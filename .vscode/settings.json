@@ -1,0 +1,26 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  // 编辑器样式
+  "window.zoomLevel": 1.2,
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Bluloco Dark Italic",
+  // 编辑器设置
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.mouseWheelZoom": true,
+  "editor.detectIndentation": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.fontFamily": "Hack, JetBrains Mono, Source Code Pro",
+  // 格式化代码
+  "prettier.enable": false,
+  "typescript.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "liveServer.settings.port": 5501,
+  "testing.automaticallyOpenPeekView": "never"
+}

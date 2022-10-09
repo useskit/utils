@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "adpyke.codesnap",
+    "anseki.vscode-color",
+    "dbaeumer.vscode-eslint",
+    "kisstkondoros.vscode-gutter-preview",
+    "shan.code-settings-sync",
+    "vscode-icons-team.vscode-icons",
+    "uloco.theme-bluloco-dark",
+    "gruntfuggly.todo-tree",
+    "ritwickdey.liveserver",
+    "donjayamanne.githistory",
+    "zixuanchen.vitest-explorer",
+    "intellsmi.comment-translate",
+    "github.copilot"
+  ]
+}

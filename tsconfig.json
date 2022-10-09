@@ -1,0 +1,24 @@
+// https://www.tslang.cn/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    "strict": true, // 严格模式
+    "target": "ES6", // 编译目标
+    "module": "ESNext", // 模块类型
+    "outDir": "./dist/", // 输出目录
+    "sourceMap": false, // 是否生成sourceMap
+    "declaration": true, // 生成定义文件
+    "declarationMap": false, // 生成定义sourceMap
+    "removeComments": true, // 删除注释
+    "noImplicitAny": false, // 没有隐式类型any
+    "noUnusedLocals": true, // 未使用变量报错
+    "esModuleInterop": true, // 支持commonjs包“
+    "allowSyntheticDefaultImports": true, //
+    // node会先到node_modules目录去查找，classic会优先到外层去查找，找不到才会去node_modules目录去查找
+    "moduleResolution": "node",
+    "experimentalDecorators": true, // 启动装饰器
+    "forceConsistentCasingInFileNames": true, // 将强制区分大小写
+  },
+  "include": [
+    "./**/*.d.ts",
+  ]
+}
