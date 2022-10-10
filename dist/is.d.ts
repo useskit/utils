@@ -1,0 +1,16 @@
+export declare function isObject(v: any): boolean;
+export declare const isPlainObject: (v: any) => boolean;
+export declare function isWindow(v: any): boolean;
+export declare function isElement(v: any): boolean;
+export declare function isUndefined(object: Object): boolean;
+export declare function isTextNode(v: any): boolean;
+export declare function isPrimitive(v: any): boolean;
+export declare function isNumber(v: unknown): boolean;
+export declare function isNumeric(v: any): boolean;
+export declare function isString(v: any): boolean;
+export declare function isBoolean(v: any): boolean;
+export declare function isDate(v: any): boolean;
+export declare const isArray: (v: any) => boolean;
+export declare function isFunction(v: any): boolean;
+export declare function isIterable(v: any): boolean;
+export declare function isEmply(v: any, allowEmptyString?: boolean): boolean;

@@ -1,72 +1,82 @@
 {
-  "name": "js-single-package-template",
-  "version": "0.1.0",
-  "description": "single package template for javascript",
-  "keywords": [
-    "useskit",
-    "kitjs",
-    "vanilla",
-    "SPA",
-    "router"
-  ],
-  "license": "MIT",
-  "author": "Aipeli",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/useskit/js-single-package-template.git"
-  },
-  "main": "./dist/index.umd.min.js",
-  "module": "./dist/index.esm.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.esm.js"
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "bugs": {
-    "url": "https://github.com/useskit/js-single-package-template/issues"
-  },
-  "homepage": "https://www.useskit.com",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "build": "rollup -c -w",
-    "eslint": "eslint .",
-    "eslint:fix": "eslint . --fix",
-    "prepare": "husky install",
-    "precommit": "lint-staged"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@rollup/plugin-node-resolve": "^14.1.0",
-    "@types/node": "^18.8.3",
-    "@useskit/eslint-config": "*",
-    "eslint": "^8.25.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "rollup": "^2.79.1",
-    "rollup-plugin-banner": "^0.2.1",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.34.1",
-    "typescript": "^4.8.4"
-  },
-  "lint-staged": {
-    "*.{vue,js,ts,jsx,tsx,json}": "eslint . --fix"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@useskit"
+    "name": "@useskit/utils",
+    "version": "0.1.0",
+    "description": "Common tools of javascript",
+    "keywords": [
+        "useskit",
+        "kitjs",
+        "vanilla",
+        "utils",
+        "array",
+        "date",
+        "deep clone",
+        "function",
+        "is",
+        "object",
+        "string"
     ],
-    "rules": {
-      "no-undef": "off",
-      "no-console": "off",
-      "no-extend-native": "off"
+    "license": "MIT",
+    "author": "Aipeli",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/useskit/utils.git"
+    },
+    "main": "./dist/index.umd.min.js",
+    "module": "./dist/index.esm.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.esm.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "bugs": {
+        "url": "https://github.com/useskit/utils/issues"
+    },
+    "homepage": "https://www.useskit.com",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "rollup -c -w",
+        "test": "vitest",
+        "test:ui": "vitest --ui",
+        "test:run": "vitest run",
+        "eslint": "eslint .",
+        "eslint:fix": "eslint . --fix",
+        "prepare": "husky install",
+        "precommit": "lint-staged"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.1.2",
+        "@commitlint/config-conventional": "^17.1.0",
+        "@rollup/plugin-node-resolve": "^14.1.0",
+        "@types/node": "^18.8.3",
+        "@useskit/eslint-config": "*",
+        "eslint": "^8.25.0",
+        "husky": "^8.0.1",
+        "jsdom": "^20.0.1",
+        "lint-staged": "^13.0.3",
+        "rollup": "^2.79.1",
+        "rollup-plugin-banner": "^0.2.1",
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-typescript2": "^0.34.1",
+        "typescript": "^4.8.4",
+        "vitest": "^0.24.0"
+    },
+    "lint-staged": {
+        "*.{vue,js,ts,jsx,tsx,json}": "eslint . --fix"
+    },
+    "eslintConfig": {
+        "extends": [
+            "@useskit"
+        ],
+        "rules": {
+            "no-undef": "off",
+            "no-console": "off",
+            "no-extend-native": "off"
+        }
     }
-  }
 }

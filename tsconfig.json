@@ -4,7 +4,7 @@
     "strict": true, // 严格模式
     "target": "ES6", // 编译目标
     "module": "ESNext", // 模块类型
-    "outDir": "./dist/", // 输出目录
+    "outDir": "./dist/esm", // 输出目录
     "sourceMap": false, // 是否生成sourceMap
     "declaration": true, // 生成定义文件
     "declarationMap": false, // 生成定义sourceMap
@@ -19,6 +19,6 @@
     "forceConsistentCasingInFileNames": true, // 将强制区分大小写
   },
   "include": [
-    "./**/*.d.ts",
-  ]
+    "**/*.d.ts"
+  ],
 }

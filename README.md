@@ -4,27 +4,60 @@
 </a>
 </p>
 <p>
-  <img alt="npm version" src="https://img.shields.io/npm/v/@useskit/router.svg">
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/@useskit/router">
-  <img alt="npm downloads" src="https://img.shields.io/npm/dw/@useskit/router">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/useskit/js-single-package-template?label=github">
-  <img alt="forks" src="https://img.shields.io/github/forks/useskit/js-single-package-template" />
-  <img alt="stars" src="https://img.shields.io/github/stars/useskit/js-single-package-template" />
-  <img alt="License: MIT" src="https://img.shields.io/github/license/useskit/js-single-package-template" />
+  <img alt="npm version" src="https://img.shields.io/npm/v/@useskit/utils.svg">
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/@useskit/utils">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dw/@useskit/utils">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/useskit/utils?label=github">
+  <img alt="forks" src="https://img.shields.io/github/forks/useskit/utils" />
+  <img alt="stars" src="https://img.shields.io/github/stars/useskit/utils" />
+  <img alt="License: MIT" src="https://img.shields.io/github/license/useskit/utils" />
 </p>
 
-> single package template for javascript
+> Common tools of javascript
+
+
 
 ### 🛠️ Install
-
- 
-### ✍️ Usage
-
+- CDN Link
+> unpkg visit url : https://unpkg.com/@useskit/utils
+``` javascript
+<script src="https://unpkg.com/@useskit/utils"></script>
+```
+- npm
+```
+npm install @useskit/utils
+```
  
 ### 🧪 Functions
+- `base data type` extension
+  - `array`
+  - `date`
+  - `function`
+  - `string`
+  - `object`
+- `is` functions
+  - `isObject`
+  - `isPlainObject`
+  - `isWindow`
+  - `isElement`
+  - `isUndefined`
+  - `isTextNode`
+  - `isPrimitive`
+  - `isNumber`
+  - `isNumeric`
+  - `isString`
+  - `isBoolean`
+  - `isDate`
+  - `isArray`
+  - `isFunction`
+  - `isIterable`
+  - `isEmply`
+- `clone` functions
+  - `deepClone`
 
+  
+### ✍️ Usage
 
- 
 ### 🧑 Author
 
 - 🧑 Aipeli
@@ -32,11 +65,11 @@
   - 💼 GitHub: [Aipeli](https://github.com/aipeli)   
 ### 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! [issues page](https://github.com/useskit/js/issues). 
+Contributions, issues and feature requests are welcome! [issues page](https://github.com/useskit/utils/issues). 
 ### ⭐️ Show your support
 
 Give a ⭐️ if this project helped you! 
-- 💼 GitHub: [UsesKit](https://github.com/useskit/js)
+- 💼 GitHub: [UsesKit](https://github.com/useskit/utils)
 ### 📝 License
 
  Copyright © 2022 [aipeli](https://github.com/aipeli) && [UsesKit](https://github.com/useskit).  This project is [MIT](LICENSE) licensed. 

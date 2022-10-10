@@ -1,0 +1,13 @@
+export declare function inArray(this: Array<any>, item: any): number;
+export declare function removeAt(this: Array<any>, index: number): boolean;
+export declare function remove(this: Array<any>, item: any): boolean;
+export declare function deepClone(this: Array<any>): any;
+export declare function compact(this: Array<any>): Array<any>;
+export declare function unique(this: Array<any>): any[];
+export declare function without(this: Array<any>, other: Array<any>): Array<any>;
+export declare function pluck(this: Array<any>, key: string): Array<any>;
+export declare function groupBy(this: Array<any>, value: any): Object;
+export declare function sortBy(this: Array<any>, scope?: string, desc?: boolean): Array<any>;
+export declare function union(this: Array<any>, other: Array<any>): Array<any>;
+export declare function intersect(this: Array<any>, other: Array<any>): Array<any>;
+export declare function diff(this: Array<any>, other: Array<any>): Array<any>;
